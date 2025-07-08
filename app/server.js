@@ -20,7 +20,7 @@ app.get('/profile-picture', function (req, res) {
   res.end(img, 'binary');
 });
 
-// use when starting application locally with node command
+// use when starting application locally with node command. You would not usually put the username and password here, but just for demonstration purposes
 let mongoUrlLocal = "mongodb://admin:password@localhost:27017";
 
 // use when starting application as docker container, part of docker-compose
